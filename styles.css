@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "TT Hoves Pro Trial Variable", sans-serif;
+  background: #dfdfdf;
+}
+
+.menu {
+  border-bottom: 3px solid #2a332a;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+.main-menu {
+  font-size: 1.6rem;
+  /* margin-left: 7rem; */
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+
+.main-title {
+  font-size: 7.5rem;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.text {
+  grid-column: 1 / 2;
+  margin-left: 10rem;
+  margin-top: 10rem;
+}
+
+.text p {
+  font-size: 2.4rem;
+  margin-top: 1.3rem;
+}
+
+.image {
+  grid-column: 2 / 3;
+  margin-left: 10rem;
+  margin-top: 7rem;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.help-text {
+  margin-left: 10rem;
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+}
