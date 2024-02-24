@@ -54,12 +54,87 @@ body {
 }
 
 .image img {
-  max-width: 100%;
-  height: auto;
+  /* max-width: 100%; */
+  /* height: auto; */
+  height: 140%;
+  margin-left: 5rem;
 }
 
 .help-text {
   margin-left: 10rem;
   font-size: 2.4rem;
   margin-bottom: 1rem;
+}
+
+button {
+  background-color: #4caf50; /* Cor de fundo */
+  border: none; /* Sem borda */
+  color: white; /* Cor do texto */
+  padding: 15px 32px; /* Espaçamento interno */
+  text-align: center; /* Alinhamento do texto */
+  text-decoration: none; /* Sem sublinhado */
+  display: inline-block; /* Exibir como bloco */
+  font-size: 16px; /* Tamanho da fonte */
+  cursor: pointer; /* Cursor do mouse */
+  margin-left: 10rem;
+  margin-top: 1rem;
+  border-radius: 30px; /* Borda arredondada */
+  transition-duration: 0.4s; /* Duração da transição */
+}
+
+button:hover {
+  background-color: #348538; /* Mudar a cor de fundo ao passar o mouse */
+}
+
+@media screen and (max-width: 60rem) {
+  .text {
+    /* grid-column: 1 / 1; */
+    /* margin-left: 2rem; */
+    margin: 5rem 5rem;
+    /* margin-top: 6rem; */
+  }
+
+  .main-title {
+    font-size: 500%;
+  }
+
+  .text p {
+    font-size: 140%;
+    margin-top: 1.5rem;
+  }
+
+  .grid-container {
+    grid-template-columns: 1fr; /* Change to a single column layout */
+  }
+
+  .image {
+    grid-row: 2;
+    margin-left: -40rem;
+    margin-top: -3rem;
+    height: 60%;
+  }
+
+  .help-text {
+    margin-left: 5rem;
+    font-size: 200%;
+    margin-bottom: 1rem;
+    margin-top: -4rem;
+  }
+  button {
+    margin-left: 5rem;
+    margin-bottom: 3rem;
+  }
+
+  .menu {
+    border-bottom: 2px solid #2a332a;
+    margin-left: 5rem;
+    margin-right: -4rem;
+  }
+
+  .main-menu {
+    font-size: 1.2rem;
+    /* margin-left: 7rem; */
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+  }
 }
